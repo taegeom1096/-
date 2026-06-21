@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="align.css" />
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="wishlist.css">
+
+    <title>서울 - 은평구</title>
+    <style>
+      #mushroom {
+          float:left;
+          margin-left: 30px;
+          
+      } 
+      footer p {
+        position: absolute;
+        top: 800px;
+        left: 800px;
+          
+      }
+      body {
+        background: linear-gradient(135deg, #aebacd 0%, #7788aa 100%);
+        background-attachment: fixed; 
+        min-height: 100vh;
+        margin: 0;
+      }
+    </style>
+    </head>
+  <body>
+    <header>
+        <h1>은평구</h1>
+        <div class="align">
+            <img src="png/eunpyeong.png" width="600" height="400" alt="서울 지도" />
+        </div>
+        <nav><a href="../index.html">홈</a></nav>
+        
+    </header>
+
+    <main>
+      <div class="wishlist">      
+        <input type="checkbox" id="wish-btn" class="wish-checkbox" />
+        <label for="wish-btn" class="wish-label"></label>
+      </div>
+      <div class="align">
+        <h2>은평구 한옥마을</h2>
+        <p><b>은평한옥마을은 2014년 북한산 자락에 조성된 수도권 최대 규모의 신한옥 전용 주거 단지입니다.</b></p>
+        <p>전통의 멋과 현대의 편리함을 결합한 약 150여 채의 한옥이 모여 있어, 자연과 어우러진 고즈넉한 풍경과 여유로운 힐링을 즐길 수 있는 서울의 대표적인 명소입니다.</p>
+      </div>
+    </main>
+    <footer>
+        <img src="png/mushroom-ad.png" width="600" height="400" id = "mushroom" alt = "서울지도" />
+        <p>인터넷 방송인 케인이 살고 있는 곳이기도 합니다.</p>       
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
