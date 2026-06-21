@@ -1,0 +1,69 @@
+.guide {text-align: center;}
+
+
+#gangnam { position: absolute; right: 632px; top: 430px; }
+
+#gangdong { position: absolute; right: 523px; top: 330px; }
+
+
+#gwanak { position: absolute; left: 710px; top: 470px; }
+
+#gwangjin { position: absolute; right: 600px; top: 348px; } 
+
+#nowon { position: absolute; left: 880px; top: 200px; }
+
+#dongdaemun { position: absolute; left: 835px; top: 290px; }
+
+#yeongdeungpo { position: absolute; left: 647px; top: 382px; }
+
+#eunpyeong { position: absolute; left: 680px; top: 230px; }
+
+#jongno { position: absolute; left: 755px; top: 290px; }
+
+#jung-gu { position: absolute; left: 770px; top: 325px; }
+
+#jungnang { position: absolute; left: 893px; top: 260px; }
+
+#login {
+    background-color: #ffffff;
+    padding:8px 15px 8px 15px;
+    height: auto;
+    min-width: 100px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 700;
+    border: 1px solid #dcdcdc;
+
+    position: absolute;
+    bottom: 100px;
+    left: 725px;
+}
+
+#signup {
+    position: absolute;
+    bottom: 50px;
+    left: 725px;
+
+    background-color: blue;
+    color: #ffffff;
+    padding:8px 15px 8px 15px;
+    height: auto;
+    min-width: 100px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 700;
+    border: 1px solid #dcdcdc;
+}
+
+#bg-img {
+  position: fixed;    
+  top: 0;
+  left: 0;
+  width: 100%;       
+  height: 100%;       
+  object-fit: cover; 
+  opacity: 0.3;
+  z-index: -1;       
+}
