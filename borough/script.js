@@ -1,4 +1,4 @@
-// wishlist.js
+// script.js
 
 // 1. 현재 HTML 파일의 이름(예: dongdaemun.html)을 자동으로 추출해서 저장 열쇠(Key)로 씁니다.
 const pageKey = 'wish_' + window.location.pathname.split('/').pop().replace('.html', '');
